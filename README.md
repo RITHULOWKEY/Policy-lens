@@ -6,6 +6,13 @@
 [![TailwindCSS](https://img.shields.io/badge/Style-TailwindCSS-38bdf8)](https://tailwindcss.com/)
 
 PolicyLens AI is a professional, production-grade **Insurance Policy Q&A Assistant** powered by Retrieval-Augmented Generation (RAG). It strictly answers coverage, exclusion, limit, deductible, and claim questions using provided fictional policy documents, featuring safe refusal when evidence is missing.
+## 🚀 Live Demo
+
+🌐 **Try PolicyLens AI:** [https://policy-lens-peach.vercel.app/](https://policy-lens-peach.vercel.app/)
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://policy-lens-peach.vercel.app/)
+
+
 
 ---
 
