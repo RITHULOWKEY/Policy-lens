@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "category": "Direct",
+    "question": "What is the collision deductible under SecureDrive Motor Insurance?",
+    "expected_policy": "SecureDrive Motor Insurance",
+    "expected_section": "4",
+    "expected_clause": "4.2",
+    "answerable": true,
+    "expected_keywords": ["$500", "deductible", "collision"]
+  },
+  {
+    "id": 2,
+    "category": "Direct",
+    "question": "What is the maximum benefit for emergency medical expenses under TravelShield?",
+    "expected_policy": "TravelShield International Travel Insurance",
+    "expected_section": "2",
+    "expected_clause": "2.1",
+    "answerable": true,
+    "expected_keywords": ["$50,000", "medical"]
+  },
+  {
+    "id": 3,
+    "category": "Direct",
+    "question": "Within how many hours must an accident be reported under RoadGuard Motor Insurance?",
+    "expected_policy": "RoadGuard Motor Insurance",
+    "expected_section": "5",
+    "expected_clause": "5.1",
+    "answerable": true,
+    "expected_keywords": ["72 hours", "helpline"]
+  },
+  {
+    "id": 4,
+    "category": "Direct",
+    "question": "What towing distance is covered under SecureDrive Emergency Roadside Assistance?",
+    "expected_policy": "SecureDrive Motor Insurance",
+    "expected_section": "2",
+    "expected_clause": "2.4",
+    "answerable": true,
+    "expected_keywords": ["50 kilometers", "towing"]
+  },
+  {
+    "id": 5,
+    "category": "Direct",
+    "question": "What is the medical deductible under TravelShield Travel Insurance?",
+    "expected_policy": "TravelShield International Travel Insurance",
+    "expected_section": "4",
+    "expected_clause": "4.1",
+    "answerable": true,
+    "expected_keywords": ["$100", "medical claim"]
+  },
+  {
+    "id": 6,
+    "category": "Paraphrased",
+    "question": "How much do I have to pay out of my own pocket after a crash in SecureDrive?",
+    "expected_policy": "SecureDrive Motor Insurance",
+    "expected_section": "4",
+    "expected_clause": "4.2",
+    "answerable": true,
+    "expected_keywords": ["$500", "deductible"]
+  },
+  {
+    "id": 7,
+    "category": "Paraphrased",
+    "question": "If my luggage gets delayed on a flight, how much money does TravelShield reimburse?",
+    "expected_policy": "TravelShield International Travel Insurance",
+    "expected_section": "2",
+    "expected_clause": "2.4",
+    "answerable": true,
+    "expected_keywords": ["$300", "12 consecutive hours"]
+  },
+  {
+    "id": 8,
+    "category": "Paraphrased",
+    "question": "What happens to my RoadGuard coverage if I drive while drunk?",
+    "expected_policy": "RoadGuard Motor Insurance",
+    "expected_section": "3",
+    "expected_clause": "3.1",
+    "answerable": true,
+    "expected_keywords": ["No liability", "intoxicated", "alcohol"]
+  },
+  {
+    "id": 9,
+    "category": "Paraphrased",
+    "question": "How many days notice must I give to cancel my SecureDrive insurance policy?",
+    "expected_policy": "SecureDrive Motor Insurance",
+    "expected_section": "6",
+    "expected_clause": "6.1",
+    "answerable": true,
+    "expected_keywords": ["30 days", "written notice"]
+  },
+  {
+    "id": 10,
+    "category": "Paraphrased",
+    "question": "Will RoadGuard pay for a temporary car while mine is in the workshop?",
+    "expected_policy": "RoadGuard Motor Insurance",
+    "expected_section": "2",
+    "expected_clause": "2.4",
+    "answerable": true,
+    "expected_keywords": ["$40 per day", "rental vehicle"]
+  },
+  {
+    "id": 11,
+    "category": "Multi-Clause",
+    "question": "When must I notify SecureDrive about a collision and what documents are required?",
+    "expected_policy": "SecureDrive Motor Insurance",
+    "expected_section": "5",
+    "expected_clause": "5.1",
+    "answerable": true,
+    "expected_keywords": ["48 hours", "Police Accident Report", "Claim Form"]
+  },
+  {
+    "id": 12,
+    "category": "Multi-Clause",
+    "question": "What is the third-party property damage limit and bodily injury limit in RoadGuard?",
+    "expected_policy": "RoadGuard Motor Insurance",
+    "expected_section": "2",
+    "expected_clause": "2.2",
+    "answerable": true,
+    "expected_keywords": ["$30,000", "$75,000", "$150,000"]
+  },
+  {
+    "id": 13,
+    "category": "Multi-Clause",
+    "question": "Under TravelShield, what are the limits for emergency medical evacuation and trip cancellation?",
+    "expected_policy": "TravelShield International Travel Insurance",
+    "expected_section": "2",
+    "expected_clause": "2.2",
+    "answerable": true,
+    "expected_keywords": ["$25,000", "$10,000"]
+  },
+  {
+    "id": 14,
+    "category": "Multi-Clause",
+    "question": "What driver age limits and license requirements apply to SecureDrive?",
+    "expected_policy": "SecureDrive Motor Insurance",
+    "expected_section": "1",
+    "expected_clause": "1.1",
+    "answerable": true,
+    "expected_keywords": ["21 to 70", "valid driver's license"]
+  },
+  {
+    "id": 15,
+    "category": "Multi-Clause",
+    "question": "What documents are required to process a claim under RoadGuard and within what timeframe?",
+    "expected_policy": "RoadGuard Motor Insurance",
+    "expected_section": "5",
+    "expected_clause": "5.2",
+    "answerable": true,
+    "expected_keywords": ["14 days", "FIR", "Registration Certificate"]
+  },
+  {
+    "id": 16,
+    "category": "Ambiguous",
+    "question": "Is theft covered?",
+    "expected_policy": "SecureDrive Motor Insurance",
+    "expected_section": "2",
+    "expected_clause": "2.2",
+    "answerable": true,
+    "expected_keywords": ["Comprehensive", "theft", "covered"]
+  },
+  {
+    "id": 17,
+    "category": "Ambiguous",
+    "question": "Does the policy cover glass damage?",
+    "expected_policy": "SecureDrive Motor Insurance",
+    "expected_section": "4",
+    "expected_clause": "4.3",
+    "answerable": true,
+    "expected_keywords": ["glass-only", "waived"]
+  },
+  {
+    "id": 18,
+    "category": "Ambiguous",
+    "question": "Can I cancel my policy and get a refund?",
+    "expected_policy": "SecureDrive Motor Insurance",
+    "expected_section": "6",
+    "expected_clause": "6.1",
+    "answerable": true,
+    "expected_keywords": ["cancel", "pro-rata refund", "written notice"]
+  },
+  {
+    "id": 19,
+    "category": "Ambiguous",
+    "question": "What is the deductible for non-collision damage?",
+    "expected_policy": "SecureDrive Motor Insurance",
+    "expected_section": "4",
+    "expected_clause": "4.3",
+    "answerable": true,
+    "expected_keywords": ["$250", "Comprehensive"]
+  },
+  {
+    "id": 20,
+    "category": "Ambiguous",
+    "question": "Are pre-existing medical conditions covered during international travel?",
+    "expected_policy": "TravelShield International Travel Insurance",
+    "expected_section": "3",
+    "expected_clause": "3.1",
+    "answerable": true,
+    "expected_keywords": ["excluded", "unless optional Endorsement"]
+  },
+  {
+    "id": 21,
+    "category": "Unanswerable",
+    "question": "Does SecureDrive cover damage caused by a volcanic eruption?",
+    "expected_policy": "None",
+    "expected_section": "None",
+    "expected_clause": "None",
+    "answerable": false,
+    "expected_keywords": ["Not found in the provided policy."]
+  },
+  {
+    "id": 22,
+    "category": "Unanswerable",
+    "question": "What is the pet insurance benefit limit under RoadGuard Motor Insurance?",
+    "expected_policy": "None",
+    "expected_section": "None",
+    "expected_clause": "None",
+    "answerable": false,
+    "expected_keywords": ["Not found in the provided policy."]
+  },
+  {
+    "id": 23,
+    "category": "Unanswerable",
+    "question": "Does TravelShield reimburse stolen cash lost at a casino?",
+    "expected_policy": "None",
+    "expected_section": "None",
+    "expected_clause": "None",
+    "answerable": false,
+    "expected_keywords": ["Not found in the provided policy."]
+  },
+  {
+    "id": 24,
+    "category": "Unanswerable",
+    "question": "Does SecureDrive pay for damage caused by meteorites or alien space debris?",
+    "expected_policy": "None",
+    "expected_section": "None",
+    "expected_clause": "None",
+    "answerable": false,
+    "expected_keywords": ["Not found in the provided policy."]
+  },
+  {
+    "id": 25,
+    "category": "Unanswerable",
+    "question": "What is the cash back rewards rate for buying fuel with RoadGuard?",
+    "expected_policy": "None",
+    "expected_section": "None",
+    "expected_clause": "None",
+    "answerable": false,
+    "expected_keywords": ["Not found in the provided policy."]
+  }
+]
