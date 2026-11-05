@@ -24,9 +24,17 @@ def startup_event():
     init_db()
     load_and_index_policies()
 
+# Initialize immediately for serverless environments (cold start)
+try:
+    init_db()
+    load_and_index_policies()
+except Exception as e:
+    pass
+
 app.include_router(api_router, prefix="/api")
 
 @app.get("/")
+@app.get("/api")
 def root():
     return {
         "status": "online",

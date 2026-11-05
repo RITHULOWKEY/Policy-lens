@@ -9,7 +9,11 @@ DATA_DIR = BASE_DIR / "data"
 POLICIES_DIR = DATA_DIR / "policies"
 EVALUATION_DATASET_PATH = DATA_DIR / "evaluation_dataset.json"
 
-DB_PATH = BASE_DIR / "backend" / "policylens.db"
+# Database path - in serverless environments like Vercel, use /tmp
+if os.getenv("VERCEL"):
+    DB_PATH = Path("/tmp/policylens.db")
+else:
+    DB_PATH = BASE_DIR / "backend" / "policylens.db"
 
 # RAG Settings
 SIMILARITY_THRESHOLD = float(os.getenv("SIMILARITY_THRESHOLD", "0.22"))
